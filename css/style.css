@@ -1,0 +1,840 @@
+
+
+
+
+
+
+body {
+    background-color:#FDF1E4;
+    color: #fcf1e3;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+header p {
+    font-weight: bold
+}
+
+header nav ul a {
+   text-decoration: none;
+   color: #fcf1e3;
+}
+
+header nav ul a:hover {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+
+header {
+    width: 1220px;
+    height: 50px;
+    flex-shrink: 50px;
+    background: #EB8464;
+}
+
+.info {
+    display: grid;
+    max-width: 1120px;
+    margin: auto;
+    padding: 
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
+}
+
+
+.colore-1 {
+    background-color: #ffb258;
+    margin: 0px;
+    max-width: 50000px;
+    margin-bottom: auto;
+    object-position: 1120px;
+}
+
+
+footer nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+footer p {
+    font-weight: bold;
+
+}
+
+footer nav ul a {
+   text-decoration: none;
+   color: black;
+}
+
+footer nav ul a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.colore-2 {
+    background-color: #ffb258;
+    margin: 0px;
+    max-width: 50000px;
+    margin-bottom: auto;
+    object-position: 1120px;
+}
+
+
+
+.desktop {
+    background-color: #fcf1e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #fcf1e3;
+    width: 1440px;
+    height: 3858px;
+    position: relative;
+  }
+  
+  .desktop .inaugurazione-mostra {
+    position: absolute;
+    top: 50px;
+    left: 226px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 400;
+    color: #eb8463;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 37.9px;
+  }
+  
+  .desktop .text-wrapper {
+    font-weight: 500;
+  }
+  
+  .desktop .span {
+    font-family: "Helvetica Neue-Regular", Helvetica;
+  }
+  
+  .desktop .element-ore {
+    position: absolute;
+    top: 170px;
+    left: 226px;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    color: #eb8463;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+  }
+  
+  .desktop .la-mostra-visioni {
+    position: absolute;
+    width: 652px;
+    top: 752px;
+    left: 394px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .desktop .text-wrapper-2 {
+    color: #000000;
+  }
+  
+  .desktop .text-wrapper-3 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #eb8463;
+  }
+  
+  .desktop .text-wrapper-4 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #eb8463;
+  }
+  
+  .desktop .overlap {
+    height: 1025px;
+    top: 992px;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+  }
+  
+  
+  
+  .desktop .artisti-in-mostra {
+    position: absolute;
+    top: 0px;
+    left: 226px;
+    font-family: roca, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: transparent;
+    font-size: 60px;
+    letter-spacing: 20;
+    line-height: 55px;
+  }
+
+
+ 
+  
+  .desktop .text-wrapper-5 {
+    color: #fcf1e3;
+    top: 300px;
+    height: 500px;
+  }
+  
+  .desktop .text-wrapper-6 {
+    color: #fcf1e3;
+  }
+  
+  .desktop .la-selezione-degli {
+    position: absolute;
+    width: 652px;
+    top: 160px;
+    left: 226px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #fcf1e3;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .desktop .card {
+    top: 582px;
+    left: 564px;
+    position: absolute;
+    width: 312px;
+    height: 442px;
+    object-fit: cover;
+  }
+  
+  .desktop .handsome-frank-jean {
+    position: absolute;
+    width: 312px;
+    height: 441px;
+    top: 1px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .card-2 {
+    position: absolute;
+    width: 312px;
+    height: 442px;
+    top: 583px;
+    left: 230px;
+  }
+  
+  .desktop .card-3 {
+    top: 582px;
+    left: 900px;
+    position: absolute;
+    width: 312px;
+    height: 442px;
+  }
+  
+  .desktop .overlap-group {
+    height: 742px;
+    top: 3115px;
+    
+  }
+  
+  .desktop .frame {
+    position: absolute;
+    width: 46px;
+    height: 45px;
+    top: 504px;
+    left: 1048px;
+  }
+  
+  .desktop .img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 502px;
+    left: 1106px;
+  }
+  
+  .desktop .frame-2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 504px;
+    left: 1164px;
+  }
+  
+  .desktop .text {
+    position: absolute;
+    width: 474px;
+    top: 419px;
+    left: 226px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: #000000cc;
+    font-size: 20px;
+    letter-spacing: -0.22px;
+    line-height: 30px;
+  }
+  
+  .desktop .text-wrapper-7 {
+    font-weight: 700;
+    letter-spacing: -0.04px;
+  }
+  
+  .desktop .text-wrapper-8 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    letter-spacing: -0.04px;
+  }
+  
+  .desktop .viaggio-nell {
+    position: absolute;
+    top: 350px;
+    left: 391px;
+    font-family: roca, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #eb8463;
+    font-size: 128px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 100px;
+  }
+  
+  .desktop .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 87px;
+    top: 0;
+    left: 0;
+    background-color: #eb8463;
+  }
+  
+  .desktop .text-wrapper-9 {
+    left: 1020px;
+    position: absolute;
+    top: 32px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--fdf-1e-4);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 21.1px;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-10 {
+    left: 1108px;
+    position: absolute;
+    top: 32px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--fdf-1e-4);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 21.1px;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-11 {
+    left: 1209px;
+    position: absolute;
+    top: 32px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--fdf-1e-4);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 21.1px;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-12 {
+    left: 1323px;
+    position: absolute;
+    top: 32px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--fdf-1e-4);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 21.1px;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-13 {
+    position: absolute;
+    top: 18px;
+    left: 48px;
+    font-family: "Bavista Soulvare-", Helvetica;
+    font-weight: 400;
+    color: #fcf1e3;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 50.6px;
+    white-space: nowrap;
+  }
+  
+  .desktop .card-4 {
+    top: 2038px;
+    left: 228px;
+    position: absolute;
+    width: 312px;
+    height: 442px;
+  }
+  
+  .desktop .card-5 {
+    top: 2370px;
+    left: 226px;
+    position: absolute;
+    width: 312px;
+    height: 442px;
+  }
+  
+  .desktop .card-6 {
+    top: 1980px;
+    left: 564px;
+    position: absolute;
+    width: 312px;
+    height: 442px;
+  }
+  
+  .desktop .card-7 {
+    top: 2220px;
+    left: 562px;
+    position: absolute;
+    width: 312px;
+    height: 442px;
+  }
+  
+  .desktop .card-8 {
+    top: 1960px;
+    left: 898px;
+    position: absolute;
+    width: 312px;
+    height: 442px;
+  }
+  
+  .desktop .card-9 {
+    top: 2425px;
+    left: 896px;
+    position: absolute;
+    width: 312px;
+    height: 442px;
+  }
+  
+
+
+.footer {
+    text-decoration: none;
+    color: #fcf1e3;
+}
+
+.footer:hover {
+         text-decoration: none;
+         color: #c7c7c7;
+     }
+
+
+     .mostra {
+        background-color: #fcf1e3;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        }
+        .mostra .div {
+        background-color: #fcf1e3;
+        width: 1440px;
+        height: 2034px;
+        position: relative;
+        }
+        .mostra .navbar {
+        position: absolute;
+        width: 1440px;
+        height: 87px;
+        top: 0;
+        left: 0;
+        background-color: #eb8463;
+        }
+        .mostra .text-wrapper {
+        left: 1020px;
+        position: absolute;
+        top: 32px;
+        font-family: "Helvetica Neue-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--fdf-1e-4);
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 21.1px;
+        white-space: nowrap;
+        }
+        .mostra .text-wrapper-2 {
+        left: 1108px;
+        position: absolute;
+        top: 32px;
+        font-family: "Helvetica Neue-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--fdf-1e-4);
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 21.1px;
+        white-space: nowrap;
+        }
+        .mostra .text-wrapper-3 {
+        left: 1209px;
+        position: absolute;
+        top: 32px;
+        font-family: "Helvetica Neue-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--fdf-1e-4);
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 21.1px;
+        white-space: nowrap;
+        }
+        .mostra .text-wrapper-4 {
+        left: 1323px;
+        position: absolute;
+        top: 32px;
+        font-family: "Helvetica Neue-Medium", Helvetica;
+        font-weight: 500;
+        color: var(--fdf-1e-4);
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 21.1px;
+        white-space: nowrap;
+        }
+        .mostra .text-wrapper-5 {
+        position: absolute;
+        top: 18px;
+        left: 48px;
+        font-family: "Bavista Soulvare-
+        ", Helvetica;
+        font-weight: 400;
+        color: #fcf1e3;
+        font-size: 48px;
+        letter-spacing: 0;
+        line-height: 50.6px;
+        white-space: nowrap;
+        }
+        .mostra .text-wrapper-6 {
+        position: absolute;
+        top: 216px;
+        left: 378px;
+        font-family: "Bavista Soulvare-
+        ", Helvetica;
+        font-weight: 400;
+        color: #eb8463;
+        font-size: 110px;
+        text-align: right;
+        letter-spacing: 0;
+        line-height: 71.5px;
+        white-space: nowrap;
+        }
+        .mostra .viaggio-nell {
+        position: absolute;
+        width: 695px;
+        top: 296px;
+        left: 381px;
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        font-size: 36px;
+        letter-spacing: 0;
+        line-height: 23.4px;
+        }
+        .mostra .overlap-group {
+        position: absolute;
+        width: 1440px;
+        height: 1648px;
+        top: 385px;
+        left: 0;
+        }
+        .mostra .una-mostra-esclusiva {
+        position: absolute;
+        width: 652px;
+        top: 0;
+        left: 394px;
+        font-family: "Inter-Regular", Helvetica;
+        font-weight: 400;
+        color: #000000;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 30px;
+        }
+        .mostra .component {
+        position: absolute;
+        width: 1440px;
+        height: 742px;
+        top: 906px;
+        left: 0;
+        background-image: url(./img/rectangle-3.svg);
+        background-size: 100% 100%;
+        }
+        .mostra .frame {
+        position: absolute;
+        width: 46px;
+        height: 45px;
+        top: 504px;
+        left: 1048px;
+        }
+        .mostra .img {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 502px;
+        left: 1106px;
+        }
+        .mostra .frame-2 {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        top: 504px;
+        left: 1164px;
+        }
+        .mostra .text {
+        position: absolute;
+        width: 474px;
+        top: 419px;
+        left: 226px;
+        font-family: "Inter-Medium", Helvetica;
+        font-weight: 500;
+        color: #000000cc;
+        font-size: 20px;
+        letter-spacing: -0.22px;
+        line-height: 30px;
+        }
+
+.mostra .footer {
+    bottom: 3000px;
+}
+
+.info {
+    background-color: #fcf1e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    }
+    .info .div {
+    background-color: #fcf1e3;
+    width: 1440px;
+    height: 1818px;
+    position: relative;
+    }
+    .info .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 87px;
+    top: 0;
+    left: 0;
+    background-color: #eb8463;
+    }
+    .info .text-wrapper {
+    left: 1020px;
+    position: absolute;
+    top: 32px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--fdf-1e-4);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 21.1px;
+    white-space: nowrap;
+    }
+    .info .text-wrapper-2 {
+    left: 1108px;
+    position: absolute;
+    top: 32px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--fdf-1e-4);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 21.1px;
+    white-space: nowrap;
+    }
+    .info .text-wrapper-3 {
+    left: 1209px;
+    position: absolute;
+    top: 32px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--fdf-1e-4);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 21.1px;
+    white-space: nowrap;
+    }
+    .info .text-wrapper-4 {
+    left: 1323px;
+    position: absolute;
+    top: 32px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--fdf-1e-4);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 21.1px;
+    white-space: nowrap;
+    }
+    .info .text-wrapper-5 {
+    position: absolute;
+    top: 18px;
+    left: 48px;
+    font-family: "Bavista Soulvare-
+    ", Helvetica;
+    font-weight: 400;
+    color: #fcf1e3;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 50.6px;
+    white-space: nowrap;
+    }
+    .info .text-wrapper-6 {
+    position: absolute;
+    top: 216px;
+    left: 378px;
+    font-family: "Bavista Soulvare-
+    ", Helvetica;
+    font-weight: 400;
+    color: #eb8463;
+    font-size: 110px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 71.5px;
+    white-space: nowrap;
+    }
+    .info .text-wrapper-7 {
+    position: absolute;
+    width: 133px;
+    top: 302px;
+    left: 654px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 23.4px;
+    }
+    .info .laboratorio-bambini {
+    position: absolute;
+    width: 652px;
+    top: 669px;
+    left: 395px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    }
+    .info .span {
+    font-weight: 700;
+    color: #eb8463;
+    }
+    .info .text-wrapper-8 {
+    font-family: "Inter-Regular", Helvetica;
+    color: #000000;
+    }
+    .info .component {
+    position: absolute;
+    width: 1440px;
+    height: 742px;
+    top: 1075px;
+    left: 0;
+    background-image: url(./img/rectangle-3.svg);
+    background-size: 100% 100%;
+    }
+    .info .frame {
+    position: absolute;
+    width: 46px;
+    height: 45px;
+    top: 504px;
+    left: 1048px;
+    }
+    .info .img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 502px;
+    left: 1106px;
+    }
+    .info .frame-2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 504px;
+    left: 1164px;
+    }
+    .info .text {
+    position: absolute;
+    width: 474px;
+    top: 419px;
+    left: 226px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000cc;
+    font-size: 20px;
+    letter-spacing: -0.22px;
+    line-height: 30px;
+    }
+    .info .inaugurazione-mostra {
+    position: absolute;
+    top: 413px;
+    left: 507px;
+    font-family: "Helvetica Neue-Medium", Helvetica;
+    font-weight: 400;
+    color: #eb8463;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 37.9px;
+    }
+    .info .text-wrapper-9 {
+    font-weight: 500;
+    top: 2000px;
+    }
+    .info .text-wrapper-10 {
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    }
+    .info .element-ore {
+    position: absolute;
+    top: 530px;
+    left: 507px;
+    font-family: "Helvetica Neue-Bold", Helvetica;
+    font-weight: 700;
+    color: #eb8463;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    }
+    
